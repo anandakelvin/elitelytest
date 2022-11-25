@@ -43,7 +43,7 @@
 		@apply font-[400] text-[12px] leading-[18px];
 	}
 	.txt-captionSmall {
-		@apply font-[400] text-[9px] leading-[14px];
+		@apply font-[400] text-[9px] leading-[13.5px];
 	}
 	.txt-overline {
 		@apply font-[500] text-[12px] leading-[18px] uppercase;
