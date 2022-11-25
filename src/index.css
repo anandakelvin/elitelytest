@@ -2,6 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+	.txt-headline1 {
+		@apply font-[600] text-[96px] leading-[144px];
+	}
+	.txt-headline2 {
+		@apply font-[600] text-[60px] leading-[90px];
+	}
+	.txt-headline3 {
+		@apply font-[600] text-[48px] leading-[72px];
+	}
+	.txt-headline4 {
+		@apply font-[600] text-[34px] leading-[51px];
+	}
+	.txt-headline5 {
+		@apply font-[700] text-[24px] leading-[36px];
+	}
+	.txt-headline6 {
+		@apply font-[600] text-[20px] leading-[30px];
+	}
+	.txt-subtitleBig {
+		@apply font-[600] text-[16px] leading-[24px];
+	}
+	.txt-subtitle {
+		@apply font-[600] text-[14px] leading-[21px];
+	}
+	.txt-subtitleSmall {
+		@apply font-[600] text-[12px] leading-[18px];
+	}
+	.txt-bodySuper {
+		@apply font-[400] text-[18px] leading-[27px];
+	}
+	.txt-bodyBig {
+		@apply font-[400] text-[16px] leading-[24px];
+	}
+	.txt-body {
+		@apply font-[400] text-[14px] leading-[21px];
+	}
+	.txt-caption {
+		@apply font-[400] text-[12px] leading-[18px];
+	}
+	.txt-captionSmall {
+		@apply font-[400] text-[9px] leading-[14px];
+	}
+	.txt-overline {
+		@apply font-[500] text-[12px] leading-[18px] uppercase;
+	}
+	.txt-inputTitle {
+		@apply font-[400] text-[12px] leading-[18px];
+	}
+	.txt-inputHelper {
+		@apply font-[400] text-[12px] leading-[18px] text-greyContent;
+	}
+	.txt-button {
+		@apply font-[600] text-[14px] leading-[21px];
+	}
+	.txt-buttonBig {
+		@apply font-[600] text-[16px] leading-[24px];
+	}
+	.txt-inlineButtonBig {
+		@apply font-[600] text-[16px] leading-[24px] text-brand;
+	}
+	.txt-inlineButton {
+		@apply font-[600] text-[14px] leading-[21px] text-brand;
+	}
+	.txt-inlineButtonSmall {
+		@apply font-[600] text-[12px] leading-[18px] text-brand;
+	}
+}
+
 @layer base {
 	@font-face {
 		font-family: Poppins;
