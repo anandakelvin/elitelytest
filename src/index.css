@@ -3,6 +3,48 @@
 @tailwind utilities;
 
 @layer components {
+	.box {
+		@apply bg-white rounded-md p-5 drop-shadow mx-5 sm:mx-0;
+	}
+
+	.btn-nav {
+		@apply py-2 px-10 border-[1px] border-transparent txt-button text-center;
+	}
+	.btn-nav-active {
+		@apply btn-nav border-b-brand text-center;
+	}
+	.btn-cta-primary {
+		@apply py-[8.5px] px-[24px] rounded-full bg-brand txt-button text-white text-center;
+	}
+	.btn-cta-secondary {
+		@apply py-[8.5px] px-[24px] rounded-full bg-brandLight txt-button text-brand text-center;
+	}
+	.btn-cta-tertiary {
+		@apply py-[8.5px] px-[24px] rounded-full bg-white txt-button text-brand border-2 border-greyContent text-center;
+	}
+	.btn-cta-quarternary {
+		@apply py-[8.5px] px-[24px] rounded-full bg-greyForeground txt-button text-black text-center;
+	}
+	.btn-cta-disabled {
+		@apply btn-cta-quarternary opacity-50 text-center;
+	}
+
+	.btn-cta-primary-tall {
+		@apply btn-cta-primary py-[14.5px] text-center;
+	}
+	.btn-cta-secondary-tall {
+		@apply btn-cta-secondary py-[14.5px] text-center;
+	}
+	.btn-cta-tertiary-tall {
+		@apply btn-cta-tertiary py-[14.5px] text-center;
+	}
+	.btn-cta-quarternary-tall {
+		@apply btn-cta-quarternary py-[14.5px] text-center;
+	}
+	.btn-cta-disabled-tall {
+		@apply btn-cta-disabled py-[14.5px] text-center;
+	}
+
 	.txt-headline1 {
 		@apply font-[600] text-[96px] leading-[144px];
 	}
