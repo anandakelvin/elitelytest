@@ -1,4 +1,4 @@
-import LargeProfilePicture from "src/assets/profile_pictures/large/xuixian_98-large.jpg";
+import LargeProfilePicture from "src/assets/profile_pictures/large/xiuxian_98-large.jpg";
 import { SlGraduation, SlBriefcase } from "react-icons/sl";
 import Divider from "src/components/Divider";
 
@@ -15,7 +15,7 @@ export default function ProfileMain() {
 				<div className="bg-red-600 rounded-full w-[10px] h-[10px]" />
 				<div className="bg-gray-600 rounded-full w-[10px] h-[10px]" />
 			</div>
-			<div>Xiuxan, 22</div>
+			<div>Xiuxian, 22</div>
 			<div className="flex gap-5 mt-2">
 				<div className="flex gap-2">
 					<div className="p-1 bg-gray-200 rounded-full">

@@ -14,11 +14,11 @@ import ProfileAbout from "src/routes/profile-about";
 
 const router = createBrowserRouter([
 	{
-		path: "",
+		path: "explore",
 		element: <Root />,
 		children: [
 			{
-				path: "explore/xuixian_98",
+				path: "xiuxian_98",
 				element: <Profile />,
 				children: [
 					{
@@ -28,18 +28,17 @@ const router = createBrowserRouter([
 					},
 					{
 						path: "about",
-
 						element: <ProfileAbout />,
 					},
 				],
 			},
-			{
-				path: "*",
-				loader: () => {
-					throw redirect("explore/xuixian_98");
-				},
-			},
 		],
+	},
+	{
+		path: "*",
+		loader: () => {
+			throw redirect("explore/xiuxian_98/main");
+		},
 	},
 ]);
 

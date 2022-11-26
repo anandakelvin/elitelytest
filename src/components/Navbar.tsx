@@ -17,7 +17,7 @@ export default function Navbar() {
 				</div>
 				<div className="flex justify-center">
 					<NavLink
-						to=""
+						to="home"
 						className={({ isActive }) =>
 							isActive ? "btn-nav-active" : "btn-nav"
 						}

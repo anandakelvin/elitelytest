@@ -1,4 +1,4 @@
-import Image from "src/assets/profile_pictures/large/xuixian_98-large.jpg";
+import Image from "src/assets/profile_pictures/large/xiuxian_98-large.jpg";
 import Divider from "src/components/Divider";
 
 export default function NewUserLi() {

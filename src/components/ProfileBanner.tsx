@@ -2,7 +2,7 @@
 import { ReactComponent as TodoIcon } from "src/assets/svgs/todo.svg";
 // @ts-ignore
 import { ReactComponent as VerifiedBadge } from "src/assets/svgs/verified-badge.svg";
-import CircleAvatarPicture from "src/assets/profile_pictures/large/xuixian_98-large.jpg";
+import CircleAvatarPicture from "src/assets/profile_pictures/large/xiuxian_98-large.jpg";
 import CircleAvatar from "src/components/CircleAvatar";
 
 export default function ProfileBanner() {
@@ -17,7 +17,7 @@ export default function ProfileBanner() {
 				</div>
 				<div className="flex-grow flex flex-col gap-[6px]">
 					<div className="flex gap-2 items-center">
-						<div className="txt-subtitleBig">@xuixan_98</div>
+						<div className="txt-subtitleBig">@xiuxian_98</div>
 						<VerifiedBadge />
 					</div>
 					<div className="flex gap-1 items-center">
