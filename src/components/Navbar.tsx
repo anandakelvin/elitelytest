@@ -17,7 +17,7 @@ export default function Navbar() {
 				</div>
 				<div className="flex justify-center">
 					<NavLink
-						to="home"
+						to="/home"
 						className={({ isActive }) =>
 							isActive ? "btn-nav-active" : "btn-nav"
 						}
@@ -25,7 +25,7 @@ export default function Navbar() {
 						Home
 					</NavLink>
 					<NavLink
-						to="explore"
+						to="/explore"
 						className={({ isActive }) =>
 							isActive ? "btn-nav-active" : "btn-nav"
 						}
@@ -33,7 +33,7 @@ export default function Navbar() {
 						Explore
 					</NavLink>
 					<NavLink
-						to="feed"
+						to="/feed"
 						className={({ isActive }) =>
 							isActive ? "btn-nav-active" : "btn-nav"
 						}
@@ -41,7 +41,7 @@ export default function Navbar() {
 						Feed
 					</NavLink>
 					<NavLink
-						to="scheduled"
+						to="/scheduled"
 						className={({ isActive }) =>
 							isActive ? "btn-nav-active" : "btn-nav"
 						}
