@@ -8,11 +8,11 @@ export default function NewUserLi() {
 			<div className="flex gap-4 my-4">
 				<img
 					src={Image}
-					width={60}
-					height={60}
+					width="80"
+					height="80"
 					className="rounded-md object-cover aspect-square h-full"
 				/>
-				<div className="flex flex-col gap-2">
+				<div className="flex flex-col">
 					<div className="txt-subtitle text-secondaryYellow uppercase text-secondary">
 						INFLUENCER
 					</div>

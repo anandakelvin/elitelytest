@@ -10,7 +10,7 @@ export default function ProfileBanner() {
 		<div className="bg-white p-8 flex flex-col drop-shadow sm:rounded-bl-xl sm:rounded-br-xl rounded-none">
 			<div className="flex items-center gap-10">
 				<div className="flex flex-col gap-[11px] justify-beclassNameeen items-center">
-					<CircleAvatar imageUrl={CircleAvatarPicture} />
+					<CircleAvatar src={CircleAvatarPicture} />
 					<div className="txt-captionSmall bg-green-50 text-green-500 border-[1px] border-green-500 rounded-xl py-[4px] px-[8px]">
 						PERSONALITY
 					</div>
