@@ -8,22 +8,22 @@
 	}
 
 	.btn-nav {
-		@apply py-2 px-10 border-[1px] border-transparent txt-button text-center;
+		@apply py-2 sm:px-10 border-[1px] border-transparent txt-button text-center;
 	}
 	.btn-nav-active {
 		@apply btn-nav border-b-brand text-center;
 	}
 	.btn-cta-primary {
-		@apply py-[8.5px] px-[24px] rounded-full bg-brand txt-button text-white text-center;
+		@apply py-[8.5px] w-full sm:px-[24px] rounded-full bg-brand txt-inlineButton text-white text-center;
 	}
 	.btn-cta-secondary {
-		@apply py-[8.5px] px-[24px] rounded-full bg-brandLight txt-button text-brand text-center;
+		@apply py-[8.5px] w-full sm:px-[24px] rounded-full bg-brandLight txt-inlineButton text-brand text-center;
 	}
 	.btn-cta-tertiary {
-		@apply py-[8.5px] px-[24px] rounded-full bg-white txt-button text-brand border-2 border-greyContent text-center;
+		@apply py-[8.5px] w-full sm:px-[24px] rounded-full bg-white txt-inlineButton text-brand border-2 border-greyContent text-center;
 	}
 	.btn-cta-quarternary {
-		@apply py-[8.5px] px-[24px] rounded-full bg-greyForeground txt-button text-black text-center;
+		@apply py-[8.5px] w-full sm:px-[24px] rounded-full bg-greyForeground txt-inlineButton text-black text-center;
 	}
 	.btn-cta-disabled {
 		@apply btn-cta-quarternary opacity-50 text-center;
@@ -72,20 +72,23 @@
 	.txt-subtitleSmall {
 		@apply font-[600] text-[12px] leading-[18px];
 	}
+	.txt-caption {
+		@apply font-[400] text-[12px] leading-[18px];
+	}
+	.txt-captionSmall {
+		@apply font-[400] text-[9px] leading-[13.5px];
+	}
 	.txt-bodySuper {
 		@apply font-[400] text-[18px] leading-[27px];
 	}
 	.txt-bodyBig {
 		@apply font-[400] text-[16px] leading-[24px];
 	}
-	.txt-body {
+	.txt-bodyNormal {
 		@apply font-[400] text-[14px] leading-[21px];
 	}
-	.txt-caption {
-		@apply font-[400] text-[12px] leading-[18px];
-	}
-	.txt-captionSmall {
-		@apply font-[400] text-[9px] leading-[13.5px];
+	.txt-body {
+		@apply txt-caption sm:txt-bodyNormal;
 	}
 	.txt-overline {
 		@apply font-[500] text-[12px] leading-[18px] uppercase;
@@ -105,11 +108,14 @@
 	.txt-inlineButtonBig {
 		@apply font-[600] text-[16px] leading-[24px] text-brand;
 	}
-	.txt-inlineButton {
-		@apply font-[600] text-[14px] leading-[21px] text-brand;
-	}
 	.txt-inlineButtonSmall {
 		@apply font-[600] text-[12px] leading-[18px] text-brand;
+	}
+	.txt-inlineButtonMedium {
+		@apply font-[600] text-[14px] leading-[21px] text-brand;
+	}
+	.txt-inlineButton {
+		@apply txt-inlineButtonSmall sm:txt-inlineButtonMedium;
 	}
 }
 

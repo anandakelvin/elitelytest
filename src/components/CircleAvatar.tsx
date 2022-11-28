@@ -7,8 +7,8 @@ export default function CircleAvatar(
 		<img
 			className="object-cover aspect-square h-full border-[1px] p-[3px] border-green-500 rounded-full"
 			alt="Profile avatar"
-			width="60"
-			height="60"
+			width="100"
+			height="100"
 			{...props}
 		/>
 	);
