@@ -7,7 +7,7 @@ import CircleAvatar from "src/components/CircleAvatar";
 
 export default function ProfileBanner() {
 	return (
-		<div className="box m-0 rounded-none sm:box">
+		<div className="box m-0 rounded-none sm:box sm:rounded-t-none">
 			<div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-10">
 				<div className="flex flex-col gap-[11px] justify-beclassNameeen items-center">
 					<div className="block sm:hidden">
