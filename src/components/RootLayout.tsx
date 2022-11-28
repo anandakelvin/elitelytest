@@ -6,8 +6,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 	return (
 		<div className="bg-greyBackground">
 			<Navbar />
-			<main className="pb-20 min-h-screen">{children}</main>
-			<div className="block sm:hidden sticky bottom-0 bg-white">
+			<main className="pb-[84px] sm:pb-20 min-h-screen">{children}</main>
+			<div className="block sm:hidden">
 				<BottomNavbar />
 			</div>
 		</div>

@@ -11,7 +11,7 @@ import colors from "src/colors";
 
 export function BottomNavbar({}) {
 	return (
-		<div className="grid grid-cols-4 justify-around items-center border-t border-greyBorder h-[64px]">
+		<div className="grid grid-cols-4 justify-around items-center border-t fixed w-full bottom-0 bg-white border-greyBorder h-[64px]">
 			<NavLink to="/home" className="flex justify-center p-3">
 				{({ isActive }) => (
 					<BottomHome stroke={isActive ? colors.brand : colors.greyContent} />
