@@ -33,7 +33,7 @@ export default function ProfileAbout() {
 						<div className="w-[60%] txt-body text-greyContent">22</div>
 					</div>
 					<div className="flex gap-2">
-						<div className="w-[40%] txt-body font-[600]">Age</div>
+						<div className="w-[40%] txt-body font-[600]">Race</div>
 						<div className="w-[60%] txt-body text-greyContent">Chinese</div>
 					</div>
 					<div className="flex gap-2">
