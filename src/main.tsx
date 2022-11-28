@@ -22,7 +22,7 @@ const router = createBrowserRouter([
 				element: <Profile />,
 				children: [
 					{
-						path: "main",
+						path: "",
 						caseSensitive: true,
 						element: <ProfileMain />,
 					},
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
 	{
 		path: "*",
 		loader: () => {
-			throw redirect("explore/xiuxian_98/main");
+			throw redirect("explore/xiuxian_98/");
 		},
 	},
 ]);

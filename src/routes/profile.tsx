@@ -12,7 +12,8 @@ export default function Profile() {
 				<div className="w-full sm:w-2/3 sm:pr-5">
 					<div className="grid grid-cols-3 mb-5 border border-transparent border-b-greyBorder">
 						<NavLink
-							to="main"
+							to=""
+							end
 							className={({ isActive }) =>
 								isActive ? "btn-nav-active" : "btn-nav"
 							}
